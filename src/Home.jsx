@@ -137,7 +137,7 @@ class Home extends Component {
                   }
 
                   <div className="launch-year-text text-center">
-                    <h5>Successful Launch  </h5>
+                    
                     <button className={ "true-data"}  onClick={(event) => this.successfulLaunch(true, event)}>True </button>   <button className="true-data" onClick={(event) => this.successfulLaunch(false, event)}> False</button>
                   </div>
 
