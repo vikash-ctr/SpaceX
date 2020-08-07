@@ -286,9 +286,9 @@ i.far.fa-plus-square {
 
 .lunch-year {
     background: #fff;
-    margin: 0px 0px;
+    margin: 10px 0px;
     border-radius: 8px;
-    height: 700px;
+    height: 750px;
 }
 
 .lunch-year p {
@@ -308,7 +308,16 @@ i.far.fa-plus-square {
 
 .launch-year-text {
     clear: both;
+}
+
+p.launch-year-text {
+    padding: 10px 0px;
     border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.lunch-year h5 {
+    padding-top: 10px;
 }
 
 .false-data,

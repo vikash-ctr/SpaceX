@@ -122,7 +122,7 @@ class Home extends Component {
             <div className="assiment-api">
               <h3>SpaceX Launch Programs</h3>
               <div className="row m-2">
-                <div className="col-sm-12 col-md-2 col-xl-2 lunch-year">
+                <div className="col-sm-2 col-md-2 col-xl-2 lunch-year">
                   <h5>Filter</h5>
                   <button className="reset-button" onClick={this.resetFilter}>Reset filter</button>
                   <p className="launch-year-text text-center">Launch Year</p>
@@ -152,8 +152,12 @@ class Home extends Component {
 
                   <div style={{ textAlign: "center", fontSize: "20px", position: "absolute", top: "300px", left: 0, right: 0 }}>Loading...</div>
                   :
+
+
+                  
                 <div className="col-sm-12 col-md-10 col-xl-10 launch-data">
                   {
+                    
                     data && data.length && data.map((item, index) => {
                       return (
                         <div className="api-item" key={item.mission_id + index}>
@@ -166,9 +170,9 @@ class Home extends Component {
                         </div>
                       )
                     })
+                    
                   }
-                </div>
-                  
+                </div>               
 
                 }
               </div>
